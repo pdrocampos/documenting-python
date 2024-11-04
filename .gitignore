@@ -1,0 +1,68 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Diretório do ambiente virtual
+venv/
+env/
+.env/
+
+# Dependências do Python
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Arquivos de log
+*.log
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações de IDEs e editores de texto
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Configurações de Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Arquivos de teste e relatórios de cobertura
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Arquivos temporários e de cache
+*.tmp
+*.temp
+.cache/
+*.swp
+*.bak
+*.orig
+*.save
+
+# Módulos Cython
+*.c
+*.cpp
+*.so
+
+# Configurações do MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Outros
+__pypackages__/
